@@ -1,0 +1,31 @@
+emo=int(input("enter emo:"))
+empname=(input("enter empname:"))
+empdesign=(input("enter empdesign:"))
+basicsalary=int(input("enter basicsalary:"))
+da=int(input("enter da:"))
+ta=int(input("enter ta:"))
+hra=int(input("enter hra:"))
+netsalary=basicsalary+da+ta+hra
+if netsalary>100000:
+    taxnetsalary*10/100
+    print(tax)
+elif netsalary>50000:
+    tax=netsalary*7%100
+    print(tax)
+elif netsalary>40000:
+    tax=netsalary*4%100
+    print(tax)
+elif netsalary>20000:
+    tax=netsalary*2%100
+    print(tax)
+else:
+    print("no tax")
+    out put:
+enter emo:154
+enter empname:nikhitha
+enter empdesign:web
+enter basicsalary:5000
+enter da:400
+enter ta:300
+enter hra:10000
+no tax
